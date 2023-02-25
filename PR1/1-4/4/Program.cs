@@ -1,38 +1,38 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Car jiga = new Car();
-jiga.name = "Жигуль убитый";
-jiga.speed = 49;
-jiga.Print();
+Car vaz2115 = new Car();
+vaz2115.name = "Ваз 2115";
+vaz2115.speed = 100;
+vaz2115.Print();
 
-Car matiz = new Car();
-matiz.name = "Матиз с ресничками";
-matiz.speed = 52;
-matiz.Print();
+Car priora = new Car();
+priora.name = "Лада Приора";
+priora.speed = 140;
+priora.Print();
 
-Car пятнарь = new Car();
-пятнарь.name = "Пятняшка";
-пятнарь.speed = 60;
-пятнарь.Print();
+Car astra = new Car();
+astra.name = "Опель Астра";
+astra.speed = 190;
+astra.Print();
 
-Car Буханка = new Car();
-Буханка.name = "Буханка";
-Буханка.speed = 35;
-Буханка.Print();
+Car lamba = new Car();
+lamba.name = "Ламборгини урус";
+lamba.speed = 40;
+lamba.Print();
 
-Console.WriteLine($"ГОНКИ");
-if (пятнарь.speed>matiz.speed)
+Console.WriteLine($"гоночки");
+if (vaz2115.speed> priora.speed)
 {
-    Console.WriteLine($"Пятнарь пришёл первым");
+    Console.WriteLine($"ВАЗ 21115 пришел первым");
 }
 
-if (matiz.speed>jiga.speed)
+if (priora.speed> astra.speed)
 {
-    Console.WriteLine($"Матиз пришёл вторым");
+    Console.WriteLine($"Приора пришла второй");
 }
 
-if (jiga.speed>Буханка.speed)
+if (astra.speed> lamba.speed)
 {
-    Console.WriteLine($"Жигуль пришёл третьим, а буханка последней");
+    Console.WriteLine($"ВАЗ 21115 пришла третьей, а ламба последней");
 }
 
 class Car

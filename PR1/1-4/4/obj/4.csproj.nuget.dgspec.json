@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hpc\\Desktop\\1-4\\4\\4.csproj": {}
+    "C:\\УП03\\PR1\\1-4\\4\\4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hpc\\Desktop\\1-4\\4\\4.csproj": {
+    "C:\\УП03\\PR1\\1-4\\4\\4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hpc\\Desktop\\1-4\\4\\4.csproj",
+        "projectUniqueName": "C:\\УП03\\PR1\\1-4\\4\\4.csproj",
         "projectName": "4",
-        "projectPath": "C:\\Users\\hpc\\Desktop\\1-4\\4\\4.csproj",
-        "packagesPath": "C:\\Users\\hpc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hpc\\Desktop\\1-4\\4\\obj\\",
+        "projectPath": "C:\\УП03\\PR1\\1-4\\4\\4.csproj",
+        "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
+        "outputPath": "C:\\УП03\\PR1\\1-4\\4\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hpc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
